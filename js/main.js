@@ -1,7 +1,7 @@
 var GameState = function(game) {};
 
 GameState.prototype.preload = function() {
-  this.game.load.spritesheet('ship', '/assets/ship.png', 32, 32);
+  this.game.load.spritesheet('ship', 'assets/ship.png', 32, 32);
 };
 
 GameState.prototype.create = function() {
